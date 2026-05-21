@@ -324,6 +324,7 @@
   </footer>
 
   <script>
+    document.body.classList.add('js-ready');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {

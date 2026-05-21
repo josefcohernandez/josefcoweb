@@ -110,12 +110,12 @@ a:hover { color: var(--violet); }
 }
 
 /* Scroll animation */
-[data-animate] {
+body.js-ready [data-animate] {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
-[data-animate].visible {
+body.js-ready [data-animate].visible {
   opacity: 1;
   transform: translateY(0);
 }

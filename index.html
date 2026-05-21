@@ -6,329 +6,337 @@
   <title>Jose Francisco Hernandez — CTO &amp; IoT Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
-  <div class="bg-orb orb-1"></div>
-  <div class="bg-orb orb-2"></div>
-  <div class="bg-orb orb-3"></div>
+  <div class="grid-bg"></div>
 
-  <div class="layout">
-
-    <!-- SIDEBAR -->
-    <aside class="sidebar glass-card" data-animate>
-
-      <div class="profile">
-        <div class="avatar-wrap">
-          <img src="assets/img/1742172861796.jpg" alt="Jose Francisco Hernandez" class="avatar" />
-          <div class="avatar-ring"></div>
+  <!-- ── HERO ─────────────────────────────────────── -->
+  <header class="hero" data-animate>
+    <div class="hero-profile">
+      <div class="avatar-frame">
+        <img src="assets/img/1742172861796.jpg" alt="Jose Francisco Hernandez" class="avatar" />
+        <span class="av-corner av-tl"></span>
+        <span class="av-corner av-tr"></span>
+        <span class="av-corner av-bl"></span>
+        <span class="av-corner av-br"></span>
+      </div>
+      <div class="hero-id">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Activo &nbsp;·&nbsp; CTO @ MYSPHERA
         </div>
-        <h1 class="name">Jose Francisco<br /><span>Hernandez</span></h1>
-        <p class="role"><span class="tag-code">&lt;</span>CTO <span class="sep">/</span> IoT Engineer<span class="tag-code">&gt;</span></p>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="section-block">
-        <h3 class="block-title">Contacto</h3>
-        <ul class="contact-list">
-          <li>
-            <span class="icon">📍</span>
-            <span>Valencia, España</span>
-          </li>
-          <li>
-            <span class="icon">🔗</span>
-            <a href="https://www.linkedin.com/in/josefcohernandez" target="_blank" rel="noopener">linkedin/josefcohernandez</a>
-          </li>
-          <li>
-            <span class="icon">🚗</span>
-            <span>Vehículo propio</span>
-          </li>
-        </ul>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="section-block">
-        <h3 class="block-title">Hard Skills</h3>
-        <div class="skill-tags">
-          <span class="skill-tag tier-1">IoT</span>
-          <span class="skill-tag tier-1">Embedded Systems</span>
-          <span class="skill-tag tier-1">Cybersecurity</span>
-          <span class="skill-tag tier-1">Firmware</span>
-          <span class="skill-tag tier-2">Embedded Linux</span>
-          <span class="skill-tag tier-2">FreeRTOS</span>
-          <span class="skill-tag tier-2">C / C++</span>
-          <span class="skill-tag tier-2">Python</span>
-          <span class="skill-tag tier-2">Java</span>
-          <span class="skill-tag tier-2">Kotlin</span>
-          <span class="skill-tag tier-2">C#</span>
-          <span class="skill-tag tier-3">Docker</span>
-          <span class="skill-tag tier-3">Terraform</span>
-          <span class="skill-tag tier-3">Ansible</span>
-          <span class="skill-tag tier-3">Jenkins</span>
-          <span class="skill-tag tier-3">Kafka</span>
-          <span class="skill-tag tier-3">MQTT</span>
-          <span class="skill-tag tier-3">Microservices</span>
-          <span class="skill-tag tier-3">Quarkus</span>
-          <span class="skill-tag tier-3">MySQL</span>
-          <span class="skill-tag tier-3">MongoDB</span>
-          <span class="skill-tag tier-3">Bash</span>
-          <span class="skill-tag tier-3">SQL</span>
-          <span class="skill-tag tier-2">AI Agent Development</span>
+        <h1 class="hero-name">Jose Francisco<br /><strong>Hernandez</strong></h1>
+        <p class="hero-role"><span class="mono dim">role://</span> CTO · IoT Engineer · Cybersecurity</p>
+        <div class="hero-links">
+          <span class="hlink">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Valencia, España
+          </span>
+          <a class="hlink" href="https://www.linkedin.com/in/josefcohernandez" target="_blank" rel="noopener">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19v.01V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+            linkedin/josefcohernandez
+          </a>
         </div>
       </div>
+    </div>
 
-      <div class="divider"></div>
+    <div class="hero-stats">
+      <div class="hstat">
+        <span class="hstat-n">20<sup>+</sup></span>
+        <span class="hstat-l">años de<br />experiencia</span>
+      </div>
+      <div class="hstat">
+        <span class="hstat-n">2</span>
+        <span class="hstat-l">publicaciones<br />científicas</span>
+      </div>
+      <div class="hstat">
+        <span class="hstat-n">6<sup>+</sup></span>
+        <span class="hstat-l">conferencias<br />internacionales</span>
+      </div>
+      <div class="hstat">
+        <span class="hstat-n">24</span>
+        <span class="hstat-l">tech<br />skills</span>
+      </div>
+    </div>
+  </header>
 
-      <div class="section-block">
-        <h3 class="block-title">Soft Skills</h3>
-        <div class="skill-tags">
-          <span class="skill-tag soft">Leadership</span>
-          <span class="skill-tag soft">Communication</span>
-          <span class="skill-tag soft">Strategic Thinking</span>
-          <span class="skill-tag soft">Teamwork</span>
+  <!-- ── ABOUT ──────────────────────────────────────── -->
+  <section class="about-strip" data-animate>
+    <span class="mono dim about-label">// perfil_profesional</span>
+    <p>Ingeniero informático con <strong>+20 años de experiencia</strong> en diseño de sistemas IoT y seguridad embebida. Especialista en arquitecturas para dispositivos conectados y ciberseguridad IoT. Apasionado por el desarrollo firmware/software y la tecnología como herramienta de impacto real.</p>
+  </section>
+
+  <!-- ── BENTO GRID ─────────────────────────────────── -->
+  <div class="bento">
+
+    <!-- SKILLS -->
+    <section class="card c-skills" data-animate>
+      <div class="card-head">
+        <span class="card-n mono dim">01</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skill-group">
+        <span class="sg-title">Core</span>
+        <div class="stags">
+          <span class="stag s-core">IoT</span>
+          <span class="stag s-core">Embedded Systems</span>
+          <span class="stag s-core">Cybersecurity</span>
+          <span class="stag s-core">Firmware</span>
+          <span class="stag s-core">AI Agent Dev</span>
         </div>
       </div>
 
-      <div class="divider"></div>
-
-      <div class="section-block">
-        <h3 class="block-title">Idiomas</h3>
-        <div class="lang-row">
-          <span>Español</span><span class="lang-level native">Nativo</span>
-        </div>
-        <div class="lang-row">
-          <span>Inglés</span><span class="lang-level intermediate">Intermedio</span>
+      <div class="skill-group">
+        <span class="sg-title">Languages</span>
+        <div class="stags">
+          <span class="stag s-lang">C / C++</span>
+          <span class="stag s-lang">Python</span>
+          <span class="stag s-lang">Java</span>
+          <span class="stag s-lang">Kotlin</span>
+          <span class="stag s-lang">C#</span>
+          <span class="stag s-lang">Bash</span>
+          <span class="stag s-lang">SQL</span>
         </div>
       </div>
 
-    </aside>
-
-    <!-- MAIN CONTENT -->
-    <main class="main-content">
-
-      <!-- ABOUT -->
-      <section class="glass-card card-about" data-animate>
-        <div class="card-label"><span class="mono">// perfil_profesional</span></div>
-        <p class="about-text">
-          Ingeniero informático con <strong>+20 años de experiencia</strong> en diseño de sistemas IoT y seguridad embebida.
-          Especialista en arquitecturas para dispositivos conectados y ciberseguridad IoT.
-          Apasionado por el desarrollo firmware/software y la tecnología como herramienta de impacto real.
-        </p>
-        <div class="stat-row">
-          <div class="stat">
-            <span class="stat-num">20<span class="stat-plus">+</span></span>
-            <span class="stat-label">Años exp.</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">2</span>
-            <span class="stat-label">Publicaciones</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">6<span class="stat-plus">+</span></span>
-            <span class="stat-label">Conferencias</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">24</span>
-            <span class="stat-label">Skills</span>
-          </div>
+      <div class="skill-group">
+        <span class="sg-title">Infra &amp; Tools</span>
+        <div class="stags">
+          <span class="stag s-tool">Embedded Linux</span>
+          <span class="stag s-tool">FreeRTOS</span>
+          <span class="stag s-tool">Docker</span>
+          <span class="stag s-tool">Terraform</span>
+          <span class="stag s-tool">Ansible</span>
+          <span class="stag s-tool">Jenkins</span>
+          <span class="stag s-tool">Kafka</span>
+          <span class="stag s-tool">MQTT</span>
+          <span class="stag s-tool">Microservices</span>
+          <span class="stag s-tool">Quarkus</span>
+          <span class="stag s-tool">MySQL</span>
+          <span class="stag s-tool">MongoDB</span>
         </div>
-      </section>
-
-      <!-- EXPERIENCE -->
-      <section class="glass-card" data-animate>
-        <div class="card-label"><span class="mono">// experiencia_laboral</span></div>
-        <div class="timeline">
-
-          <div class="tl-item current">
-            <div class="tl-dot"></div>
-            <div class="tl-content">
-              <div class="tl-header">
-                <div>
-                  <h3 class="tl-role">CTO</h3>
-                  <p class="tl-company">MYSPHERA</p>
-                </div>
-                <span class="tl-date">Jul 2022 — Presente</span>
-              </div>
-              <p class="tl-desc">Dirección técnica global. Definición de arquitectura, roadmap tecnológico y liderazgo de equipos de ingeniería IoT y software.</p>
-            </div>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-content">
-              <div class="tl-header">
-                <div>
-                  <h3 class="tl-role">IoT Director</h3>
-                  <p class="tl-company">MYSPHERA</p>
-                </div>
-                <span class="tl-date">2013 — 2022</span>
-              </div>
-              <p class="tl-desc">Liderazgo del área IoT: diseño de dispositivos, firmware, conectividad y plataformas de localización en tiempo real para entornos hospitalarios.</p>
-            </div>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-content">
-              <div class="tl-header">
-                <div>
-                  <h3 class="tl-role">IoT Director</h3>
-                  <p class="tl-company">TSB Real Time Location</p>
-                </div>
-                <span class="tl-date">Anterior</span>
-              </div>
-              <p class="tl-desc">Dirección de proyectos de localización en tiempo real con tecnologías IoT y RTLS.</p>
-            </div>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-content">
-              <div class="tl-header">
-                <div>
-                  <h3 class="tl-role">Project Technical Lead</h3>
-                  <p class="tl-company">TSB</p>
-                </div>
-                <span class="tl-date">Anterior</span>
-              </div>
-              <p class="tl-desc">Responsable técnico de proyectos de desarrollo e integración de sistemas embebidos.</p>
-            </div>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-content">
-              <div class="tl-header">
-                <div>
-                  <h3 class="tl-role">Firmware / Software Developer</h3>
-                  <p class="tl-company">TSB</p>
-                </div>
-                <span class="tl-date">Anterior</span>
-              </div>
-              <p class="tl-desc">Desarrollo de firmware y software para sistemas embebidos y dispositivos IoT.</p>
-            </div>
-          </div>
-
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-content">
-              <div class="tl-header">
-                <div>
-                  <h3 class="tl-role">Internship Developer</h3>
-                  <p class="tl-company">ASIX / Digitel</p>
-                </div>
-                <span class="tl-date">Inicio</span>
-              </div>
-              <p class="tl-desc">Prácticas en desarrollo de aplicaciones.</p>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- EDUCATION -->
-      <section class="glass-card" data-animate>
-        <div class="card-label"><span class="mono">// educacion</span></div>
-        <div class="edu-grid">
-          <div class="edu-item">
-            <span class="edu-icon">🎓</span>
-            <div>
-              <h4>Ingeniería en Informática</h4>
-              <p>Universitat Politècnica de València (UPV)</p>
-            </div>
-          </div>
-          <div class="edu-item">
-            <span class="edu-icon">🎓</span>
-            <div>
-              <h4>Ingeniería Técnica en Informática de Sistemas</h4>
-              <p>Universitat Politècnica de València (UPV)</p>
-            </div>
-          </div>
-          <div class="edu-item">
-            <span class="edu-icon">📘</span>
-            <div>
-              <h4>Curso de Adaptación Pedagógica (CAP)</h4>
-              <p>Universitat Politècnica de València (UPV)</p>
-            </div>
-          </div>
-          <div class="edu-item">
-            <span class="edu-icon">⚙️</span>
-            <div>
-              <h4>Técnico Superior en Sistemas de Regulación y Control</h4>
-              <p>Formación Profesional</p>
-            </div>
-          </div>
-          <div class="edu-item highlight-edu">
-            <span class="edu-icon">🛡️</span>
-            <div>
-              <h4>Formación Complementaria</h4>
-              <p>DevOps · ITIL · Ethical Hacker</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- PUBLICATIONS & RESEARCH -->
-      <div class="two-col-grid">
-
-        <section class="glass-card" data-animate>
-          <div class="card-label"><span class="mono">// publicaciones</span></div>
-          <div class="pub-list">
-            <div class="pub-item">
-              <span class="pub-year">2006</span>
-              <div>
-                <p class="pub-title">J2ME and .NET CF</p>
-                <span class="pub-isbn">ISBN 84-689-5941-3</span>
-              </div>
-            </div>
-            <div class="pub-item">
-              <span class="pub-year">2005</span>
-              <div>
-                <p class="pub-title">Web Technologies</p>
-                <span class="pub-isbn">ISBN 84-689-3873-4</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="glass-card" data-animate>
-          <div class="card-label"><span class="mono">// investigacion</span></div>
-          <div class="conf-tags">
-            <span class="conf-tag">WTHS</span>
-            <span class="conf-tag">EMBEC</span>
-            <span class="conf-tag">CASEIB</span>
-            <span class="conf-tag">URSI</span>
-            <span class="conf-tag">Medicon</span>
-            <span class="conf-tag">Computers in Cardiology</span>
-          </div>
-          <p class="conf-note">Ponencias y publicaciones en conferencias internacionales de bioingeniería y sistemas embebidos.</p>
-        </section>
-
       </div>
 
-    </main>
+      <div class="skill-group">
+        <span class="sg-title">Soft Skills</span>
+        <div class="stags">
+          <span class="stag s-soft">Leadership</span>
+          <span class="stag s-soft">Communication</span>
+          <span class="stag s-soft">Strategic Thinking</span>
+          <span class="stag s-soft">Teamwork</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <span class="sg-title">Idiomas</span>
+        <div class="lang-bars">
+          <div class="lang-row">
+            <span class="lang-name">Español</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+            <span class="lang-badge nat">Nativo</span>
+          </div>
+          <div class="lang-row">
+            <span class="lang-name">English</span>
+            <div class="lang-bar"><div class="lang-fill lf-amber" style="width:62%"></div></div>
+            <span class="lang-badge int">Intermedio</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="card c-experience" data-animate>
+      <div class="card-head">
+        <span class="card-n mono dim">02</span>
+        <h2>Experiencia</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-row tl-active">
+          <div class="tl-aside">
+            <div class="tl-node"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">Jul 2022 — Presente</span>
+            <h3>CTO</h3>
+            <span class="tl-co">MYSPHERA</span>
+            <p>Dirección técnica global. Definición de arquitectura, roadmap tecnológico y liderazgo de equipos de ingeniería IoT y software.</p>
+          </div>
+        </div>
+
+        <div class="tl-row">
+          <div class="tl-aside">
+            <div class="tl-node"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">2013 — 2022</span>
+            <h3>IoT Director</h3>
+            <span class="tl-co">MYSPHERA</span>
+            <p>Liderazgo del área IoT: diseño de dispositivos, firmware, conectividad y plataformas de localización en tiempo real para entornos hospitalarios.</p>
+          </div>
+        </div>
+
+        <div class="tl-row">
+          <div class="tl-aside">
+            <div class="tl-node"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">Anterior</span>
+            <h3>IoT Director</h3>
+            <span class="tl-co">TSB Real Time Location</span>
+            <p>Dirección de proyectos de localización en tiempo real con tecnologías IoT y RTLS.</p>
+          </div>
+        </div>
+
+        <div class="tl-row">
+          <div class="tl-aside">
+            <div class="tl-node"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">Anterior</span>
+            <h3>Project Technical Lead</h3>
+            <span class="tl-co">TSB</span>
+            <p>Responsable técnico de proyectos de desarrollo e integración de sistemas embebidos.</p>
+          </div>
+        </div>
+
+        <div class="tl-row">
+          <div class="tl-aside">
+            <div class="tl-node"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">Anterior</span>
+            <h3>Firmware / Software Developer</h3>
+            <span class="tl-co">TSB</span>
+            <p>Desarrollo de firmware y software para sistemas embebidos y dispositivos IoT.</p>
+          </div>
+        </div>
+
+        <div class="tl-row tl-last">
+          <div class="tl-aside">
+            <div class="tl-node"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">Inicio</span>
+            <h3>Internship Developer</h3>
+            <span class="tl-co">ASIX / Digitel</span>
+            <p>Prácticas en desarrollo de aplicaciones.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="card c-education" data-animate>
+      <div class="card-head">
+        <span class="card-n mono dim">03</span>
+        <h2>Educación</h2>
+      </div>
+      <div class="edu-list">
+        <div class="edu-row">
+          <span class="edu-mark">▸</span>
+          <div>
+            <h4>Ingeniería en Informática</h4>
+            <p>Universitat Politècnica de València (UPV)</p>
+          </div>
+        </div>
+        <div class="edu-row">
+          <span class="edu-mark">▸</span>
+          <div>
+            <h4>Ing. Técnica en Informática de Sistemas</h4>
+            <p>Universitat Politècnica de València (UPV)</p>
+          </div>
+        </div>
+        <div class="edu-row">
+          <span class="edu-mark">▸</span>
+          <div>
+            <h4>Curso de Adaptación Pedagógica (CAP)</h4>
+            <p>Universitat Politècnica de València (UPV)</p>
+          </div>
+        </div>
+        <div class="edu-row">
+          <span class="edu-mark">▸</span>
+          <div>
+            <h4>Técnico Superior en Sist. de Regulación y Control</h4>
+            <p>Formación Profesional</p>
+          </div>
+        </div>
+        <div class="edu-row edu-hi">
+          <span class="edu-mark">◈</span>
+          <div>
+            <h4>Formación Complementaria</h4>
+            <p>DevOps · ITIL · Ethical Hacker</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="card c-publications" data-animate>
+      <div class="card-head">
+        <span class="card-n mono dim">04</span>
+        <h2>Publicaciones</h2>
+      </div>
+      <div class="pub-list">
+        <div class="pub-entry">
+          <span class="pub-yr">2006</span>
+          <div>
+            <p class="pub-title">J2ME and .NET CF</p>
+            <span class="pub-isbn mono dim">ISBN 84-689-5941-3</span>
+          </div>
+        </div>
+        <div class="pub-entry">
+          <span class="pub-yr">2005</span>
+          <div>
+            <p class="pub-title">Web Technologies</p>
+            <span class="pub-isbn mono dim">ISBN 84-689-3873-4</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="card c-research" data-animate>
+      <div class="card-head">
+        <span class="card-n mono dim">05</span>
+        <h2>Investigación</h2>
+      </div>
+      <div class="conf-chips">
+        <span class="conf-chip">WTHS</span>
+        <span class="conf-chip">EMBEC</span>
+        <span class="conf-chip">CASEIB</span>
+        <span class="conf-chip">URSI</span>
+        <span class="conf-chip">Medicon</span>
+        <span class="conf-chip">Computers in Cardiology</span>
+      </div>
+      <p class="conf-desc">Ponencias y publicaciones en conferencias internacionales de bioingeniería y sistemas embebidos.</p>
+    </section>
+
   </div>
 
-  <footer class="footer">
-    <span class="mono">jose_francisco_hernandez.cv</span>
-    <span class="sep">·</span>
-    <span>Última actualización: 2025</span>
+  <footer class="site-footer">
+    <span class="mono dim">jose_francisco_hernandez.cv</span>
+    <span class="dim">·</span>
+    <span class="mono dim">Última actualización: 2025</span>
   </footer>
 
   <script>
     document.body.classList.add('js-ready');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+    }, { threshold: 0.06 });
+    document.querySelectorAll('[data-animate]').forEach(el => obs.observe(el));
   </script>
 
 </body>

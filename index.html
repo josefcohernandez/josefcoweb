@@ -35,10 +35,6 @@
         <h3 class="block-title">Contacto</h3>
         <ul class="contact-list">
           <li>
-            <span class="icon">✉</span>
-            <a class="email-link" data-u="jhernandez.laboral" data-d="gmail.com"></a>
-          </li>
-          <li>
             <span class="icon">📍</span>
             <span>Valencia, España</span>
           </li>
@@ -324,11 +320,6 @@
   </footer>
 
   <script>
-    document.querySelectorAll('.email-link').forEach(el => {
-      const addr = el.dataset.u + '@' + el.dataset.d;
-      el.href = 'mailto:' + addr;
-      el.innerHTML = el.dataset.u + '<br />@' + el.dataset.d;
-    });
     document.body.classList.add('js-ready');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
